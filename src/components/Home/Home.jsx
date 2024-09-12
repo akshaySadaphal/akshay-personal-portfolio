@@ -22,8 +22,7 @@ import { Skills } from "../Skills/Skills";
 import { Work } from "../Work/Work";
 import { Contact } from "../Contact/Contact";
 import { ChevronRightIcon } from "@chakra-ui/icons";
-import AmolResume from "../../Assets/Amol_Resume.pdf";
-
+import AkshayResume from "../../Assets/Akshay_Resume.pdf";
 import { useMediaQuery } from "react-responsive";
 import { TechStack } from "../Tech Stack/TechStack";
 import { GithubCalender } from "../GitCalender/GithubCalender";
@@ -105,11 +104,11 @@ export const Home = ({ props }) => {
                   />
                 </Heading>
 
-                <a href={AmolResume} target="_blank" download>
+                <a href={AkshayResume} target="_blank" download>
                   <Button
                     mt={10}
                     onClick={() => {
-                      window.open(AmolResume);
+                      window.open(AkshayResume);
                     }}
                     h="50px"
                     fontFamily="Poppins"
@@ -218,7 +217,7 @@ export const Home = ({ props }) => {
                 </Heading>
                 <Center>
                   <a
-                    href={AmolResume}
+                    href={AkshayResume}
                     rel="noopener noreferrer"
                     target="_blank"
                     download
@@ -226,7 +225,7 @@ export const Home = ({ props }) => {
                     <Button
                       mt={10}
                       onClick={() => {
-                        window.open(AmolResume);
+                        window.open(AkshayResume);
                       }}
                       h="40px"
                       fontFamily="Poppins"
@@ -330,14 +329,14 @@ export const Home = ({ props }) => {
                 </Heading>
                 <Center>
                   <a
-                    href={AmolResume}
+                    href={AkshayResume}
                     rel="noopener noreferrer"
                     target="_blank"
                     download
                   >
                     <Button
                       onClick={() => {
-                        window.open(AmolResume);
+                        window.open(AkshayResume);
                       }}
                       mt={10}
                       h="40px"

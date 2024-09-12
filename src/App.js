@@ -28,9 +28,9 @@ const scrollsection=(elementref)=>{
     top:elementref.current.offsetTop,
     behavior: "smooth"
   })
-  // <Button onClick={()=>scrollsection(home)}>Amolll</Button>
+  // <Button onClick={()=>scrollsection(home)}>Akey</Button>
 }
-{/* <Button onClick={()=>scrollsection(services)}>Amolll</Button> */}
+{/* <Button onClick={()=>scrollsection(services)}>Akey</Button> */}
  
   return (<>
     

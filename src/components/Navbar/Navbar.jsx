@@ -27,7 +27,7 @@ import HeaderSection from "../Home/HeaderS";
 import { MdMenu } from "react-icons/md";
 import React, { useRef } from "react";
 import { HashLink } from "react-router-hash-link";
-import AmolResume from "../../Assets/Amol_Resume.pdf";
+import AkshayResume from "../../Assets/Akshay_Resume.pdf";
 import { useMediaQuery } from "react-responsive";
 
 const Desktop = ({ children }) => {
@@ -191,14 +191,14 @@ const Navbar = ({ props }) => {
                     </Text>
                   ))}
                   <a
-                    href={AmolResume}
+                    href={AkshayResume}
                     rel="noopener noreferrer"
                     target="_blank"
                     download
                   >
                     <Button
                       onClick={() => {
-                        window.open(AmolResume);
+                        window.open(AkshayResume);
                       }}
                       h="40px"
                       fontFamily="Poppins"
@@ -413,7 +413,7 @@ const Navbar = ({ props }) => {
 
                 <Center>
                   <a
-                    href={AmolResume}
+                    href={AkshayResume}
                     rel="noopener noreferrer"
                     target="_blank"
                     download
@@ -421,7 +421,7 @@ const Navbar = ({ props }) => {
                     <Button
                       mt={7}
                       onClick={() => {
-                        window.open(AmolResume);
+                        window.open(AkshayResume);
                       }}
                       h="40px"
                       fontFamily="Poppins"
@@ -624,14 +624,14 @@ const Navbar = ({ props }) => {
                 ))}
                 <Center>
                   <a
-                    href={AmolResume}
+                    href={AkshayResume}
                     rel="noopener noreferrer"
                     target="_blank"
                     download
                   >
                     <Button
                      onClick={() => {
-                      window.open(AmolResume);
+                      window.open(AkshayResume);
                     }}
                       mt={7}
                       h="40px"
